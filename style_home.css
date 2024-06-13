@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logoBlanco{
+    padding-bottom: 40px;
+}
+
+.menuLateral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2361AD;
+    padding-top: 20px;
+}
+
+.menuLateral a{
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: justify;
+}
+
+nav a:hover{
+    width: 100%;
+    background: white;
+    border-radius: 10px 0px 0px 10px;
+    color: #0A3871;
+}
+
+.menuLateral i{
+    margin-right: 5px;
+}
+
+.usuario{
+    padding: 16px;
+    text-decoration: none;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0A3871;
+    font-size: 25px;
+}
+
+.usuario i{
+    margin-left: 0.5%;
+}
+
+.tituloPrincipal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color:#0A3871;
+    margin: 10% 0 0 20%;
+    text-align: center; 
+}
+
+.opcionesMenu{
+    margin: 5% 0 0 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    border-radius: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.boton-menu{
+    padding: 2%;
+    margin-left: 5%;
+    width: 20%;
+    height: 150px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 30px -10px #0A3871;
+    text-decoration: none;
+    text-align: center;
+    font-size: 80px;
+    color: #0A3871;
+}
+
+.texto-menu h2{
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: bold;  
+}
+
+.texto-menu p{
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+input{
+    width: 400px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0;
+    outline: none;
+    box-shadow: 0px 5px 20px -8px #0A3871;
+}
+
+button{
+    background: #0A3871;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    outline: none;
+    box-shadow: 0px 5px 20px -8px #0A3871;
+    cursor: pointer;
+}
+
+#boton-filtro{
+    background: #2361AD;
+    box-shadow: 0px 5px 20px -8px #0A3871;
+}
+
+#boton-buscar{
+    border-radius: 0 5px 5px 0;
+}
+
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+     }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+     }
+}
