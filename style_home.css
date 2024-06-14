@@ -148,7 +148,7 @@ button{
     border-radius: 0 5px 5px 0;
 }
 
-.opciones-inventario{
+.opciones-inventario, .opciones-reportes{
     display: grid;
     grid-template-columns: 25% 25% 25%;
     align-items: left;
@@ -157,7 +157,7 @@ button{
     gap: 1em;
 }
 
-.productos{
+.productos, .reportes{
     width: 80%;
     height: 225px;
     padding-top: 2%;
@@ -212,7 +212,27 @@ button{
 .valor{
     font-weight: bold;
 }
-*/
+
+.reportes{
+    margin-top: 20%;
+}
+.icon-diario{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: 5%;
+}
+
+.descripcion-diario h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+
 
 
 @media screen and (max-width:480px){
