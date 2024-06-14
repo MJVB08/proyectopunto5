@@ -105,8 +105,9 @@ nav a:hover{
 
 input{
     width: 400px;
-    padding: 10px;
+    padding: 15px;
     padding-right: 35px;
+    font-size: 20px;
     border-radius: 10px 0px 0px 10px;
     border: 0;
     outline: none;
@@ -116,6 +117,7 @@ input{
 button{
     background: #0A3871;
     color: white;
+    font-size: 20px;
     padding: 10px 15px;
     border: 0;
     outline: none;
@@ -131,6 +133,72 @@ button{
 #boton-buscar{
     border-radius: 0 5px 5px 0;
 }
+
+.opciones-inventario{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    align-items: left;
+    justify-content: center;
+    margin: 2% 0% 0% 10%;
+    gap: 1em;
+}
+
+.productos{
+    width: 80%;
+    height: 225px;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0A3871;
+    box-shadow: 0px 0px 30px -10px #0A3871;
+    cursor: pointer;
+}
+
+.editar-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 10% 0;
+}
+
+.editar-productos{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.productos a{
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.codigo-productos{
+    display: flex;
+    text-align: left;
+    margin-left: 5px;
+    font-style: italic;
+    font-size: 15px;
+    padding: 0% 60% 5% 0%;
+}
+.nombre-productos{
+    font-weight: bold;
+    font-size: 30px;
+}
+.valor-productos{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.valor{
+    font-weight: bold;
+}
+*/
 
 
 @media screen and (max-width:480px){
